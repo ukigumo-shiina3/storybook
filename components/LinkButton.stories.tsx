@@ -6,6 +6,9 @@ import LinkButton, { LinkButtonProps } from "./LinkButton";
 export default {
   title: "Design System/Atoms/Button",
   component: LinkButton,
+  argTypes: {
+    bgc: { control: "color" },
+  },
 } as Meta;
 
 const Template: Story<LinkButtonProps> = (args) => <LinkButton {...args} />;
