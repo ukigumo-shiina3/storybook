@@ -15,8 +15,10 @@ const Template: Story<LinkButtonProps> = (args) => <LinkButton {...args} />;
 
 export const DefaultButton = Template.bind({});
 DefaultButton.args = {};
+DefaultButton.storyName = "デフォルトのボタン";
 
 export const RedButton = Template.bind({});
 RedButton.args = {
   bgc: "#f00",
 };
+RedButton.storyName = "赤いボタン";
